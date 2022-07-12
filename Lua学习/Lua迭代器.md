@@ -10,7 +10,7 @@ for a,b,c... in explist do block end
 
 ```lua
 do
-	local _f, _s, _var = explist
+    local _f, _s, _var = explist
     while true do
         local a,b,c... = _f(_s, _var)
         _var = a
@@ -19,4 +19,3 @@ do
     end
 end
 ```
-
